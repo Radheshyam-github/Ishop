@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+max-width: 1000px;
+margin: auto;
+/* text-align: center; */
+}
+.down-arrow{
+    border-left: 8px transparent solid;
+    border-right: 8px transparent solid;
+    border-top: 8px black solid;
+    width: 0;
+    height: 0;
+}
+.responsivee-menu{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6) 0% 0% no-repeat padding-box;
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    z-index: 99999;
+}
+.banner1{
+    background: transparent linear-gradient(67deg, #E71D3A 0%, #ECC7C1 45%, #EFCAC4 58%, #E4BDB8 70%, #42A8FE 100%) 0% 0% no-repeat padding-box;
+}
+.banner2{
+    background: #2E90E5 0% 0% no-repeat padding-box;
+}
+del{
+    color: #C1C8CE;
+}
+.helpsbox{
+width: 330px;
+height: 250px;
+}   
+.contact{
+    width: 300px ;
+    height: 230px;
+/* box-shadow: 0px 0px 2px gray; */
+
+}
+.filter{
+    width: 220px;
+   
+}
+.contact-chat {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
